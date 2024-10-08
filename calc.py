@@ -11,9 +11,9 @@ def calc(n1,op,n2=0):
     elif op == "-":
         return subt(n1,n2)
     elif op == "*":
-        return n1*n2
+        return multi(n1,n2)
     elif op == "/":
-        return n1/n2
+        return div(n1,n2)
     elif op == "!":
         return fatorial(n1)
 
