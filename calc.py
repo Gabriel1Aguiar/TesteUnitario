@@ -16,5 +16,5 @@ def calc(n1,op,n2=0):
         return div(n1,n2)
     elif op == "!":
         return fatorial(n1)
-
-print(calc(3,"!")) 
+    elif op == "**":
+        return pot(n1,n2)
