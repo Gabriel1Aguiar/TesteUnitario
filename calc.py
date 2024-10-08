@@ -4,6 +4,7 @@ from modularizado.multi import multi
 from modularizado.div import div
 from modularizado.fatorial import fatorial
 from modularizado.subt import subt
+from modularizado.pot import pot
 
 def calc(n1,op,n2=0):
     if op == "+":
